@@ -601,6 +601,7 @@ COPY_EXISTING ~msectype.2da~ ~override~
 	READ_2DA_ENTRY_FORMER rows row 0 ~sectype~ 
 	PATCH_IF (~%sectype%~ STRING_EQUAL_CASE ~Breach~) BEGIN
 	  SET breach_type = (%row% - 1)
+		LOG "breach_type <- %breach_type%"
 	END
   END
 BUT_ONLY
