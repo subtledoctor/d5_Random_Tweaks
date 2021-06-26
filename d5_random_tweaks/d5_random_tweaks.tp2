@@ -18,6 +18,11 @@ LANGUAGE
   ~english~
   ~d5_random_tweaks/lang/english/setup.tra~
 
+LANGUAGE
+	~Français~
+	~français~
+	~d5_random_tweaks/lang/french/setup.tra~
+  
 
 //do stuff____________________________________________________________________________
 
